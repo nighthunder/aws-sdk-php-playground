@@ -26,7 +26,7 @@
  * /**/
 
 # snippet-start:[php.example_code.s3.Scenario_GettingStarted]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\S3\S3Client;
 

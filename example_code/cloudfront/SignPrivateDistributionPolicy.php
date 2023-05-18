@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 
 // snippet-start:[cloudfront.php.private_distribution_policy.complete]
 // snippet-start:[cloudfront.php.private_distribution_policy.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\CloudFront\CloudFrontClient;
 use Aws\Exception\AwsException;

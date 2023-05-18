@@ -18,7 +18,7 @@
 // snippet-start:[sts.php.assume_role.complete]
 // snippet-start:[sts.php.assume_role.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Sts\StsClient; 
 use Aws\Exception\AwsException;

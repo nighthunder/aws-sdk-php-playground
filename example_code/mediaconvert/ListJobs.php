@@ -21,7 +21,7 @@
 // snippet-start:[mediaconvert.php.list_jobs.complete]
 // snippet-start:[mediaconvert.php.list_jobs.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\MediaConvert\MediaConvertClient;  
 use Aws\Exception\AwsException;

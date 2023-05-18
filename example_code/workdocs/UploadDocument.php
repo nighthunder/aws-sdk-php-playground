@@ -20,7 +20,7 @@
 // snippet-start:[workdocs.php.upload_document.complete]
 // snippet-start:[workdocs.php.upload_document.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Exception\AwsException;
 use Aws\WorkDocs\WorkDocsClient;

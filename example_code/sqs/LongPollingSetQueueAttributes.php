@@ -18,7 +18,7 @@
  */
 // snippet-start:[sqs.php.long_polling_set_queue_attributes.complete]
 // snippet-start:[sqs.php.long_polling_set_queue_attributes.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Sqs\SqsClient; 
 use Aws\Exception\AwsException;

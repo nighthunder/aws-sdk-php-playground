@@ -18,7 +18,7 @@
  */
 // snippet-start:[kinesis.php.describe_data_stream.complete]
 // snippet-start:[kinesis.php.describe_data_stream.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Kinesis\KinesisClient; 
 use Aws\Exception\AwsException;

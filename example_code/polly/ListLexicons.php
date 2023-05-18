@@ -19,7 +19,7 @@
 // snippet-start:[polly.php.list_lexicon.complete]
 // snippet-start:[polly.php.list_lexicon.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Exception\AwsException;
 use Aws\Polly\PollyClient;

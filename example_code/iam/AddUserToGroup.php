@@ -17,7 +17,7 @@
 // snippet-start:[iam.php.add_user_to_group.complete]
 // snippet-start:[iam.php.add_user_to_group.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Iam\IamClient; 
 use Aws\Exception\AwsException;

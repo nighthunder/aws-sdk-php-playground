@@ -21,7 +21,7 @@
 // snippet-start:[iam.php.list_users.complete]
 // snippet-start:[iam.php.list_users.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Iam\IamClient; 
 use Aws\Exception\AwsException;

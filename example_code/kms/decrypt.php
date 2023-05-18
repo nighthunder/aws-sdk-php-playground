@@ -21,7 +21,7 @@
 // snippet-start:[kms.php.decrypt.complete]
 // snippet-start:[kms.php.decrypt.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Kms\KmsClient; 
 use Aws\Exception\AwsException;

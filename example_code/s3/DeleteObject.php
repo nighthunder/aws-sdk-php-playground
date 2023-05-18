@@ -15,7 +15,7 @@
 // snippet-start:[s3.php.delete_object.complete]
 // snippet-start:[s3.php.delete_object.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\S3\S3Client;  
 use Aws\Exception\AwsException;

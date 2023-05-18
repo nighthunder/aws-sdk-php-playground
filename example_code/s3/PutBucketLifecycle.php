@@ -15,7 +15,7 @@
 // snippet-start:[s3.php.put_bucket_lifecycle.complete]
 // snippet-start:[s3.php.put_bucket_lifecycle.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\S3\S3Client;  
 use Aws\Exception\AwsException;

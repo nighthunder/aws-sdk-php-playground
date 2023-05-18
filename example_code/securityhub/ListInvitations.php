@@ -19,7 +19,7 @@
 // snippet-start:[securityhub.php.list_invitations.complete]
 // snippet-start:[securityhub.php.list_invitations.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Exception\AwsException;
 use Aws\SecurityHub\SecurityHubClient;

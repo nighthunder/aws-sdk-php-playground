@@ -19,7 +19,7 @@
 // snippet-start:[ses.php.send_email.complete]
 // snippet-start:[ses.php.send_email.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Ses\SesClient; 
 use Aws\Exception\AwsException;

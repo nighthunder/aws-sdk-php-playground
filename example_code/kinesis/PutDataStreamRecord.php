@@ -18,7 +18,7 @@
  */
 // snippet-start:[kinesis.php.put_data_stream_record.complete]
 // snippet-start:[kinesis.php.put_data_stream_record.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Kinesis\KinesisClient; 
 use Aws\Exception\AwsException;

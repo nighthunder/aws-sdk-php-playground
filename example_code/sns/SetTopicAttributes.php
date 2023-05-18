@@ -18,7 +18,7 @@
  */
 // snippet-start:[sns.php.set_topic_attributes.complete]
 // snippet-start:[sns.php.set_topic_attributes.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Sns\SnsClient; 
 use Aws\Exception\AwsException;

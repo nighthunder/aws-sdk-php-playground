@@ -18,7 +18,7 @@
  */
 // snippet-start:[sns.php.subscribe_text_sms.complete]
 // snippet-start:[sns.php.subscribe_text_sms.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Sns\SnsClient; 
 use Aws\Exception\AwsException;

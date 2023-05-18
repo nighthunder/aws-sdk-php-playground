@@ -17,7 +17,7 @@
 // snippet-start:[ec2.php.revoke_security_group_ingress.complete]
 // snippet-start:[ec2.php.revoke_security_group_ingress.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Ec2\Ec2Client;
 // snippet-end:[ec2.php.revoke_security_group_ingress.import]

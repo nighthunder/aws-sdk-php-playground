@@ -13,7 +13,7 @@ use GuzzleHttp\Promise\PromiseInterface;
  * operation.
  *
  *     $s3 = new Aws\S3\Client([
- *         'region' => 'us-west-2',
+ *         'region' => 'us-east-1',
  *         'version' => 'latest'
  *     ]);
  *

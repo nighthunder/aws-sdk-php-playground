@@ -19,7 +19,7 @@
 // snippet-start:[dynamodb.php.garbage_collection.complete]
 // snippet-start:[dynamodb.php.garbage_collection.register_handler]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\DynamoDb\SessionHandler;
 

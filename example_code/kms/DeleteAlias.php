@@ -21,7 +21,7 @@
 // snippet-start:[kms.php.delete_alias.complete]
 // snippet-start:[kms.php.delete_alias.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Kms\KmsClient; 
 use Aws\Exception\AwsException;

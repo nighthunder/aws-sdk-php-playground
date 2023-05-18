@@ -21,7 +21,7 @@
 // snippet-start:[ec2.php.describe_security_groups.complete]
 // snippet-start:[ec2.php.describe_security_groups.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Ec2\Ec2Client;
 // snippet-end:[ec2.php.describe_security_groups.import]

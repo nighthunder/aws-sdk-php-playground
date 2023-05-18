@@ -442,7 +442,7 @@ resolved iteratively, allowing for "infinite" then chaining.
 
 ```php
 <?php
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use GuzzleHttp\Promise\Promise;
 

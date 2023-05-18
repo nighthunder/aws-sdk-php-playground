@@ -18,7 +18,7 @@
  */
 // snippet-start:[sqs.php.dead_letter_queue.complete]
 // snippet-start:[sqs.php.dead_letter_queue.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Sqs\SqsClient; 
 use Aws\Exception\AwsException;

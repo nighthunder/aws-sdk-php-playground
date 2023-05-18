@@ -18,7 +18,7 @@
  */
 // snippet-start:[sns.php.check_opt_out.complete]
 // snippet-start:[sns.php.check_opt_out.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Sns\SnsClient; 
 use Aws\Exception\AwsException;

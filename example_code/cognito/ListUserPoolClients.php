@@ -19,7 +19,7 @@
 // snippet-start:[cognito.php.user_pool.list_user_pool_clients.complete]
 // snippet-start:[cognito.php.user_pool.list_user_pool_clients.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\CognitoIdentityProvider\CognitoIdentityProviderClient;
 use Aws\Exception\AwsException;

@@ -30,12 +30,12 @@
 // snippet-sourcedate:[2019-01-30]
 // snippet-sourceauthor:[fletpatr (AWS)]
 // snippet-start:[s3.php.example.uploadingobject]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\S3\S3Client;
 use Aws\S3\Exception\S3Exception;
 
-$bucket = '*** Your Bucket Name ***';
+$bucket = 'my-maya-teste-bucket';
 $keyname = '*** Your Object Key ***';
                         
 $s3 = new S3Client([

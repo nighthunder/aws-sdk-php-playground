@@ -19,7 +19,7 @@
 // snippet-start:[securityhub.php.disable_securityhub.complete]
 // snippet-start:[securityhub.php.disable_securityhub.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Exception\AwsException;
 use Aws\SecurityHub\SecurityHubClient;

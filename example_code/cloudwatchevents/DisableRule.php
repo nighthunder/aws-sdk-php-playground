@@ -17,7 +17,7 @@
 // snippet-start:[cloudwatchevents.php.disable_rule.complete]
 // snippet-start:[cloudwatchevents.php.disable_rule.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\CloudWatchEvents\CloudWatchEventsClient; 
 use Aws\Exception\AwsException;

@@ -18,7 +18,7 @@
  */
 // snippet-start:[sqs.php.recieve_message.complete]
 // snippet-start:[sqs.php.recieve_message.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Sqs\SqsClient; 
 use Aws\Exception\AwsException;

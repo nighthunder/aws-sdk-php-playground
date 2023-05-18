@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 
 // snippet-start:[mediaconvert.php.create_job_template.complete]
 // snippet-start:[mediaconvert.php.create_job_template.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\MediaConvert\MediaConvertClient;
 use Aws\Exception\AwsException;

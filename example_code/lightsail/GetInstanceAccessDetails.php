@@ -18,7 +18,7 @@
  */
 // snippet-start:[lightsail.php.get_instance_access_details.complete]
 // snippet-start:[lightsail.php.get_instance_access_details.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Exception\AwsException;
 use Aws\Lightsail\LightsailClient;

@@ -17,7 +17,7 @@
 // snippet-start:[ec2.php.modify_instance_attributes.complete]
 // snippet-start:[ec2.php.modify_instance_attributes.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Ec2\Ec2Client;
 // snippet-end:[ec2.php.modify_instance_attributes.import]

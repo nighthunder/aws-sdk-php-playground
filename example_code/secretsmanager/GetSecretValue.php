@@ -19,7 +19,7 @@
 // snippet-start:[secretsmanager.php.get_secret_value.complete]
 // snippet-start:[secretsmanager.php.get_secret_value.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\SecretsManager\SecretsManagerClient; 
 use Aws\Exception\AwsException;

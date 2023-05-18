@@ -19,7 +19,7 @@
 // snippet-start:[ses.php.authorize_sender.complete]
 // snippet-start:[ses.php.authorize_sender.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Ses\SesClient; 
 use Aws\Exception\AwsException;

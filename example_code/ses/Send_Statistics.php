@@ -19,7 +19,7 @@
 // snippet-start:[ses.php.send_statistics.complete]
 // snippet-start:[ses.php.send_statistics.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Ses\SesClient; 
 use Aws\Exception\AwsException;

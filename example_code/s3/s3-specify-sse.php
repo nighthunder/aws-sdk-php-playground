@@ -30,7 +30,7 @@
 // snippet-sourcedate:[2019-01-30]
 // snippet-sourceauthor:[fletpatr (AWS)]
 // snippet-start:[s3.php.example.specifysse]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\S3\S3Client;
 

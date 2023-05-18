@@ -19,7 +19,7 @@
 // snippet-start:[ses.php.create_rule_set.complete]
 // snippet-start:[ses.php.create_rule_set.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Ses\SesClient; 
 use Aws\Exception\AwsException;

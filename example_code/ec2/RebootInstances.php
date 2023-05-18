@@ -21,7 +21,7 @@
 // snippet-start:[ec2.php.reboot_instance.complete]
 // snippet-start:[ec2.php.reboot_instance.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Ec2\Ec2Client;
 // snippet-end:[ec2.php.reboot_instance.import]

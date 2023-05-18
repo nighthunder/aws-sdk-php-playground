@@ -19,7 +19,7 @@
 // snippet-start:[s3.php.put_object.complete]
 // snippet-start:[s3.php.put_object.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\S3\S3Client;  
 use Aws\Exception\AwsException;
@@ -53,7 +53,7 @@ try {
     //Create a S3Client
     $s3Client = new S3Client([
         'profile' => 'default',
-        'region' => 'us-west-2',
+        'region' => 'us-east-1',
         'version' => '2006-03-01'
     ]);
     $result = $s3Client->putObject([

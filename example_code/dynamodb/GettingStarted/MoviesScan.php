@@ -25,7 +25,7 @@
  * specific language governing permissions and limitations under the License.
 */
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 date_default_timezone_set('UTC');
 

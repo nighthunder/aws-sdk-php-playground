@@ -20,11 +20,11 @@ use Aws\Exception\UnresolvedEndpointException;
  *     use Aws\Endpoint\EndpointProvider;
  *     $provider = EndpointProvider::defaultProvider();
  *     // Returns an array or NULL.
- *     $endpoint = $provider(['service' => 'ec2', 'region' => 'us-west-2']);
+ *     $endpoint = $provider(['service' => 'ec2', 'region' => 'us-east-1']);
  *     // Returns an endpoint array or throws.
  *     $endpoint = EndpointProvider::resolve($provider, [
  *         'service' => 'ec2',
- *         'region'  => 'us-west-2'
+ *         'region'  => 'us-east-1'
  *     ]);
  *
  * You can compose multiple providers into a single provider using
@@ -41,7 +41,7 @@ use Aws\Exception\UnresolvedEndpointException;
  *     $c = \Aws\or_chain($a, $b);
  *     $config = ['service' => 'ec2', 'region' => 'my-test-region'];
  *     $res = $c($config);  // $a handles this.
- *     $config['region'] = 'us-west-2';
+ *     $config['region'] = 'us-east-1';
  *     $res = $c($config); // $b handles this.
  */
 class EndpointProvider

@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 
 // snippet-start:[apigateway.php.update_base_path_mapping.complete]
 // snippet-start:[apigateway.php.update_base_path_mapping.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\ApiGateway\ApiGatewayClient;
 use Aws\Exception\AwsException;

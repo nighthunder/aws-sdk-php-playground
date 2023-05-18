@@ -21,7 +21,7 @@
 // snippet-start:[kms.php.create_client.complete]
 // snippet-start:[kms.php.create_client.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Kms\KmsClient;
 // snippet-end:[kms.php.create_client.import]

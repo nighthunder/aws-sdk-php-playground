@@ -18,7 +18,7 @@
  */
 // snippet-start:[lightsail.php.get_regions.complete]
 // snippet-start:[lightsail.php.get_regions.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Exception\AwsException;
 use Aws\Lightsail\LightsailClient;

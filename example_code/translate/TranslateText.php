@@ -20,7 +20,7 @@
 // snippet-start:[translate.php.traslate_text.complete]
 // snippet-start:[translate.php.traslate_text.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Translate\TranslateClient; 
 use Aws\Exception\AwsException;

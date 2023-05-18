@@ -20,7 +20,7 @@
 // snippet-start:[elastictranscoder.php.delete_pipeline.import] 
 // Path to your PHP autoload.  If you are using a phar installation, this is the
 // path to your aws.phar file.
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\ElasticTranscoder\ElasticTranscoderClient;
 use Aws\Exception\AwsException;

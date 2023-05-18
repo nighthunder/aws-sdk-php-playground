@@ -19,7 +19,7 @@
 // snippet-start:[s3.php.put_bucket_cors.complete]
 // snippet-start:[s3.php.put_bucket_cors.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\S3\S3Client;  
 use Aws\Exception\AwsException;
@@ -33,12 +33,12 @@ use Aws\Exception\AwsException;
  * https://docs.aws.amazon.com/sdk-for-php/v3/developer-guide/guide_credentials.html
  */
 
-$bucketName = 'BUCKET_NAME';
+$bucketName = 'my-maya-teste-bucket';
 
 // snippet-start:[s3.php.put_bucket_cors.main]
 $client = new S3Client([
     'profile' => 'default',
-    'region' => 'us-west-2',
+    'region' => 'us-east-1',
     'version' => '2006-03-01'
 ]);
 

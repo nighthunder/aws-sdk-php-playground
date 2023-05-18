@@ -31,7 +31,7 @@
 # snippet-start:[php.example_code.iam.iam_basics.scenario]
 namespace Iam\Basics;
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Credentials\Credentials;
 use Aws\S3\Exception\S3Exception;

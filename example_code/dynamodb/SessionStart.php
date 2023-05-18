@@ -19,7 +19,7 @@
 // snippet-start:[dynamodb.php.start_session.complete]
 // snippet-start:[dynamodb.php.start_session.register_handler]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\DynamoDb\SessionHandler;
 

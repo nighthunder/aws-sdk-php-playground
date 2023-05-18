@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 
 // snippet-start:[cloudwatch.php.disable_alarms_actions.complete]
 // snippet-start:[cloudwatch.php.disable_alarms_actions.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\CloudWatch\CloudWatchClient; 
 use Aws\Exception\AwsException;

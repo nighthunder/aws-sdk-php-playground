@@ -18,7 +18,7 @@
  */
 // snippet-start:[sqs.php.get_queue_url.complete]
 // snippet-start:[sqs.php.get_queue_url.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Sqs\SqsClient; 
 use Aws\Exception\AwsException;

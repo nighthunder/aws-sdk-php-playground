@@ -21,7 +21,7 @@
 // snippet-start:[iam.php.get_access_key_last_used.complete]
 // snippet-start:[iam.php.get_access_key_last_used.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Iam\IamClient; 
 use Aws\Exception\AwsException;

@@ -19,7 +19,7 @@
 // snippet-start:[securityhub.php.delete_members.complete]
 // snippet-start:[securityhub.php.delete_members.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Exception\AwsException;
 use Aws\SecurityHub\SecurityHubClient;

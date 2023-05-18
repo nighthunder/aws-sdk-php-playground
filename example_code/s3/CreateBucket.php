@@ -6,11 +6,11 @@ SPDX-License-Identifier: Apache-2.0
 
 // snippet-start:[s3.php.create_bucket.complete]
 // snippet-start:[s3.php.create_bucket.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\S3\S3Client;
 use Aws\Exception\AwsException;
-// snippet-end:[s3.php.create_bucket.import]
+
 
 /* ////////////////////////////////////////////////////////////////////////////
  * Purpose: Creates a bucket in Amazon S3.
@@ -46,11 +46,11 @@ function createTheBucket()
         'version' => '2006-03-01'
     ]);
 
-    echo createBucket($s3Client, 'my-bucket');
+    echo createBucket($s3Client, 'my-maya-teste-bucket');
 }
 
 // Uncomment the following line to run this code in an AWS account.
-// createTheBucket();
+createTheBucket();
 // snippet-end:[s3.php.create_bucket.main] 
 // snippet-end:[s3.php.create_bucket.complete]
 // snippet-comment:[These are tags for the AWS doc team's sample catalog. Do not remove.]
@@ -65,3 +65,4 @@ function createTheBucket()
 // snippet-sourcedate:[2020-04-14]
 // snippet-sourceauthor:[pccornel (AWS)]
 
+?>

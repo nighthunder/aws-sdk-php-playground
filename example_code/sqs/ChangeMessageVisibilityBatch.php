@@ -18,7 +18,7 @@
  */
 // snippet-start:[sqs.php.change_message_visibility_batch.complete]
 // snippet-start:[sqs.php.change_message_visibility_batch.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Sqs\SqsClient; 
 use Aws\Exception\AwsException;

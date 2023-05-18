@@ -19,7 +19,7 @@
 // snippet-start:[ses.php.delete_domain.complete]
 // snippet-start:[ses.php.delete_domain.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Ses\SesClient; 
 use Aws\Exception\AwsException;

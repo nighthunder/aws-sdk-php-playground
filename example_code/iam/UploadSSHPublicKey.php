@@ -17,7 +17,7 @@
 // snippet-start:[iam.php.upload_ssh_public_key.complete]
 // snippet-start:[iam.php.upload_ssh_public_key.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Iam\IamClient; 
 use Aws\Exception\AwsException;

@@ -19,7 +19,7 @@
 // snippet-start:[mediaconvert.php.create_job_with_preset.complete]
 // snippet-start:[mediaconvert.php.create_job_with_preset.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\MediaConvert\MediaConvertClient;
 use Aws\Exception\AwsException;

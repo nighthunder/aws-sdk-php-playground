@@ -19,7 +19,7 @@
 // snippet-start:[rds.php.create_db_replica.complete]
 // snippet-start:[rds.php.create_db_replica.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Rds\RdsClient; 
 use Aws\Exception\AwsException;

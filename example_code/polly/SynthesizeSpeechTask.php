@@ -19,7 +19,7 @@
 // snippet-start:[polly.php.synthesize_speech_task.complete]
 // snippet-start:[polly.php.synthesize_speech_task.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Exception\AwsException;
 use Aws\Polly\PollyClient;

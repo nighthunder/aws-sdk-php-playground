@@ -19,7 +19,7 @@ use Aws\Token\BearerTokenAuthorization;
  *     use Aws\Signature\SignatureProvider;
  *     $provider = SignatureProvider::defaultProvider();
  *     // Returns a SignatureInterface or NULL.
- *     $signer = $provider('v4', 's3', 'us-west-2');
+ *     $signer = $provider('v4', 's3', 'us-east-1');
  *     // Returns a SignatureInterface or throws.
  *     $signer = SignatureProvider::resolve($provider, 'no', 's3', 'foo');
  *

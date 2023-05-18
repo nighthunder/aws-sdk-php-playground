@@ -19,7 +19,7 @@
 // snippet-start:[rds.php.start_instance.complete]
 // snippet-start:[rds.php.start_instance.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Rds\RdsClient; 
 use Aws\Exception\AwsException;

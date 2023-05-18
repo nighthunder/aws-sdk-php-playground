@@ -17,7 +17,7 @@
 // snippet-start:[iam.php.get_login_profile.complete]
 // snippet-start:[iam.php.get_login_profile.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Iam\IamClient; 
 use Aws\Exception\AwsException;

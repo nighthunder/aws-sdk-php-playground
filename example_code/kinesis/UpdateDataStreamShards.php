@@ -18,7 +18,7 @@
  */
 // snippet-start:[kinesis.php.update_data_stream_shards.complete]
 // snippet-start:[kinesis.php.update_data_stream_shards.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Kinesis\KinesisClient; 
 use Aws\Exception\AwsException;

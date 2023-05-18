@@ -39,7 +39,7 @@ use GuzzleHttp\Psr7;
  *
  * $encryptionClient = new S3EncryptionClientV2(
  *     new S3Client([
- *         'region' => 'us-west-2',
+ *         'region' => 'us-east-1',
  *         'version' => 'latest'
  *     ])
  * );

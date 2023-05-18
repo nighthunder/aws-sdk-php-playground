@@ -14,7 +14,7 @@
  */
 // snippet-start:[ses.php.send_raw_email.complete]
 // snippet-start:[ses.php.send_raw_email.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use Aws\Ses\SesClient;

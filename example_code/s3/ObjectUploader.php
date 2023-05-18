@@ -19,7 +19,7 @@
 // snippet-start:[s3.php.objectuploader.complete]
 // snippet-start:[s3.php.objectuploader.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\S3\S3Client;
 use Aws\Exception\AwsException;

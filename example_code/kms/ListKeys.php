@@ -21,7 +21,7 @@
 // snippet-start:[kms.php.list_keys.complete]
 // snippet-start:[kms.php.list_keys.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Kms\KmsClient; 
 use Aws\Exception\AwsException;

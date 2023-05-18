@@ -19,7 +19,7 @@
 // snippet-start:[s3.php.presigned_url.complete]
 // snippet-start:[s3.php.presigned_url.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\S3\S3Client;  
 use Aws\Exception\AwsException;

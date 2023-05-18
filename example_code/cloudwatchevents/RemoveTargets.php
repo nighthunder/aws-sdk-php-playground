@@ -17,7 +17,7 @@
 // snippet-start:[cloudwatchevents.php.remove_target.complete]
 // snippet-start:[cloudwatchevents.php.remove_target.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\CloudWatchEvents\CloudWatchEventsClient; 
 use Aws\Exception\AwsException;

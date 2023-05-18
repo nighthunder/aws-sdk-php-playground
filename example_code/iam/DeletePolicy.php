@@ -17,7 +17,7 @@
 // snippet-start:[iam.php.delete_policy.complete]
 // snippet-start:[iam.php.delete_policy.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Iam\IamClient; 
 use Aws\Exception\AwsException;

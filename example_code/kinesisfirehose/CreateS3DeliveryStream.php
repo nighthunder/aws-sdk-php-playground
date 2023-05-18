@@ -18,7 +18,7 @@
 // snippet-start:[firehose.php.create_s3_delivery_stream.complete]
 // snippet-start:[firehose.php.create_s3_delivery_stream.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Firehose\FirehoseClient; 
 use Aws\Exception\AwsException;

@@ -23,7 +23,7 @@
 // snippet-start:[ec2.php.describe_instances.complete]
 // snippet-start:[ec2.php.describe_instances.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Ec2\Ec2Client;
 

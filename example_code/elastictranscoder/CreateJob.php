@@ -18,7 +18,7 @@
  */
 // snippet-start:[elastictranscoder.php.create_job.complete] 
 // snippet-start:[elastictranscoder.php.create_job.import] 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\ElasticTranscoder\ElasticTranscoderClient;
 use Aws\Exception\AwsException;

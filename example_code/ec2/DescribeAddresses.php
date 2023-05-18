@@ -17,7 +17,7 @@
 // snippet-start:[ec2.php.describe_addresses.complete]
 // snippet-start:[ec2.php.describe_addresses.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Ec2\Ec2Client;
 // snippet-end:[ec2.php.describe_addresses.import]

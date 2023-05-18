@@ -10,7 +10,7 @@ using the ``mtdowling/jmespath.php`` package.
 
 .. code-block:: php
 
-    require 'vendor/autoload.php';
+    require '../../vendor/autoload.php';
 
     $expression = 'foo.*.baz';
 

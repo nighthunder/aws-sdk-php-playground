@@ -21,7 +21,7 @@
 // snippet-start:[iam.php.create_account_alias.complete]
 // snippet-start:[iam.php.create_account_alias.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Iam\IamClient; 
 use Aws\Exception\AwsException;

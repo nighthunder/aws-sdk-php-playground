@@ -21,7 +21,7 @@
 // snippet-start:[iam.php.delete_server_certificate.complete]
 // snippet-start:[iam.php.delete_server_certificate.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Iam\IamClient; 
 use Aws\Exception\AwsException;

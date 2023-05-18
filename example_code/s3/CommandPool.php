@@ -18,7 +18,7 @@
  */
 // snippet-start:[s3.php.command_pool.complete]
 // snippet-start:[s3.php.command_pool.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Exception\AwsException;
 use Aws\S3\S3Client;

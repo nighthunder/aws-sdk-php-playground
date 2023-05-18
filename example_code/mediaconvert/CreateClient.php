@@ -15,7 +15,7 @@
  */
 // snippet-start:[mediaconvert.php.create_client.complete]
 // snippet-start:[mediaconvert.php.create_client.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\MediaConvert\MediaConvertClient;
 

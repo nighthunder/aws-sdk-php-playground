@@ -30,11 +30,11 @@
 // snippet-sourcedate:[2019-01-30]
 // snippet-sourceauthor:[fletpatr (AWS)]
 // snippet-start:[s3.php.example.uploadsse]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\S3\S3Client;
 
-$bucket = '*** Your Bucket Name ***';
+$bucket = 'my-maya-teste-bucket';
 $keyname = '*** Your Object Key ***';
 
 // $filepath should be an absolute path to a file on disk.

@@ -18,7 +18,7 @@
  */
 // snippet-start:[lightsail.php.get_blueprints.complete]
 // snippet-start:[lightsail.php.get_blueprints.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\Exception\AwsException;
 use Aws\Lightsail\LightsailClient;

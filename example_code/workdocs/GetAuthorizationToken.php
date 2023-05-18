@@ -18,7 +18,7 @@
  */
 // snippet-start:[workdocs.php.get_authorization_token.complete]
 // snippet-start:[workdocs.php.get_authorization_token.import]
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use GuzzleHttp\Client as httpClient;
 

@@ -17,7 +17,7 @@
 // snippet-start:[cloudwatchevents.php.test_event_pattern.complete]
 // snippet-start:[cloudwatchevents.php.test_event_pattern.import]
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 use Aws\CloudWatchEvents\CloudWatchEventsClient; 
 use Aws\Exception\AwsException;
